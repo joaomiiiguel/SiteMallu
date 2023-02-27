@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+  .main{
+    background-color: blue;
+  }
+}
