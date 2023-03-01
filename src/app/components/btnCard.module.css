@@ -1,0 +1,64 @@
+.containerCard{
+    display: flex;
+    width: -webkit-fill-available;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.containerCardBig{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-height: 400px;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+.containerCard:hover > .titleCard{
+    background-color: rgba(240, 248, 255, 0.867);
+    color: #C26558;
+    padding: 15px;
+    transition: 0.3s;
+}
+.containerCard:hover > .bgImage{
+    height: 130%;
+    transition: 0.5s;
+}
+.containerCardBig:hover > .bgImageBig{
+    height: 110%;
+    transition: 0.5s;
+}
+.containerCardBig:hover > .titleCard{
+    background-color: rgba(240, 248, 255, 0.867);
+    color: #C26558;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.titleCard{
+    position:absolute;
+    z-index: 10;
+    background-color: rgba(240, 248, 255, 0.601);
+    padding: 10px;
+    font-size: larger;
+}
+
+.bgImage{
+    width: auto;
+    height: 120%;
+    transition: 0.8s;
+}
+.bgImageBig{
+    height: 100%;
+    transition: 0.8s;
+}

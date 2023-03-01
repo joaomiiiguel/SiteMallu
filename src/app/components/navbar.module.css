@@ -1,0 +1,23 @@
+.ContainerNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 15%;
+    position:absolute;
+}
+.menuLinks{
+    display: flex;
+    padding: 0px 15px;
+}
+.menuLinks > .btnNavbar {
+    padding: 10px 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menuLinks > .btnNavbar:hover {
+    color: #C26558;
+    transition: 0.5s;
+}

@@ -1,0 +1,25 @@
+.containerAbout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #EBEBEB;
+    padding: 5% 15%;
+    
+}
+.textContent{
+    width: 60%;
+}
+.columnMenu{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.rowMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}

@@ -1,0 +1,22 @@
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 5%;
+    background-color: #DFE1E3;
+}
+.logoFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.textCopyright{
+    font-size: x-small;
+    font-weight: 200;
+    letter-spacing: 5px;
+}

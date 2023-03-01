@@ -1,13 +1,16 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import styles from './page.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import Navbar from '@/app/components/navbar'
+import CarouselComp from '@/app/components/carousel'
+import MenuHome from '@/app/components/MenuGrid'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Site de Mallu Fotografia</h1>
+      <CarouselComp/>
+      <MenuHome/>
     </main>
   )
 }

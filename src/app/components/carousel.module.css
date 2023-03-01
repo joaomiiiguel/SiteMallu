@@ -1,0 +1,9 @@
+.containterCarousel{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.ImgCarousel{
+    height: 130%;
+    width: fit-content;
+}
