@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Roboto } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import styles from './page.module.css'
 
 import Navbar from '@/app/components/navbar'

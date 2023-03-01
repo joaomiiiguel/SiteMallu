@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "./navbar.module.css";
+import { FaBars } from "react-icons/fa";
+
 
 import LogoMallu from "../../../public/Logo_Mallu_B.png";
 
@@ -14,8 +16,10 @@ export default function Navbar() {
         <Link className={styles.btnNavbar} href={"/sobremim"}>SOBRE MIM</Link>
         <Link className={styles.btnNavbar} href={"/depoimentos"}>DEPOIMENTOS</Link>
         <Link className={styles.btnNavbar} href={"/servicos"}>SERVIÇOS</Link>
+        <Link className={styles.btnNavbar} href={"/blog"}>BLOG</Link>
         <Link className={styles.btnNavbar} href={"/contato"}>CONTATO</Link>
       </div>
+      <div className={styles.menuBar}><FaBars size={20}/></div>
     </div>
   );
 }

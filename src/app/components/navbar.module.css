@@ -21,3 +21,25 @@
     color: #C26558;
     transition: 0.5s;
 }
+.menuBar{
+    display: none;
+}
+
+
+@media (max-width: 750px) {
+    .menuLinks{
+        display: none;
+    }
+    .menuBar{
+        display: flex;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid rgb(221, 221, 221);
+        transition: 0.5s;
+
+    }
+    .menuBar:active{
+        background-color: rgba(201, 201, 201, 0.5);
+        transition: 0.2s;
+    }
+}
