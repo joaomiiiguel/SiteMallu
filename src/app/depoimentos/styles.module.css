@@ -1,7 +1,26 @@
 
 .container{
     display: flex;
+    flex-direction: column;
     height: 100vh;
-    justify-content: center;
+    margin-top: 5%;
     align-items: center;
+}
+.CardDepo{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: gainsboro;
+}
+
+.CapaDepo{
+    width: 40%;
+    height: auto;
+}
+
+.contentCasal{
+ width: 50%;
 }
